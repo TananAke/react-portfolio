@@ -36,14 +36,14 @@ const Project = () => {
         // className="max-w-screen-lg p-4 mx-auto md:mx-20   flex flex-col justify-center w-full h-full"
         className="max-w-screen-lg p-4 mx-auto    flex flex-col justify-center w-full h-full"
       >
-        <div className="pb-3 sm:pb-8">
+        <div className="pb-8 sm:pb-8">
           <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-gray-500">
             {t('project_header')}
           </p>
           {/* <p className="py-6"> My past Project</p> */}
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 px-0 sm:px-12 ">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 px-1 sm:px-12 ">
 
         {/* <div className="shadow-md w-72 h-48 shadow-gray-600 rounded-lg  ">
           <HoverVideoPlayer 
