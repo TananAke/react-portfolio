@@ -9,7 +9,10 @@ const Contact = () => {
 
   return (
     <div name="contact" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white">
-        <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto md:mx-20 h-full">
+        <div 
+            // className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto md:mx-20 h-full"
+            className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto w-full h-full"
+        >
             <div className=" pb-4">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">{t('contact_header')}</p>
                 <p className="text-xs sm:text-base py-2 sm:py-4 ">{t('contact_subheader')}</p>

@@ -167,7 +167,10 @@ const Skills = () => {
   return (
     <div name="skills" className="pt-8 sm:pt-0 bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
                        
-      <div className="max-w-screen-lg mx-auto md:mx-20 p-4 flex flex-col justify-center w-full h-full text-white">
+      <div 
+        // className="max-w-screen-lg mx-auto md:mx-20 p-4 flex flex-col justify-center w-full h-full text-white"
+        className="max-w-screen-lg mx-auto  p-4 flex flex-col justify-center w-full h-full text-white"
+      >
         <div className="flex flex-row">
           <p className="text-4xl font-bold border-b-4 border-gray-500 inline mt-10">
             {/* Skills */}

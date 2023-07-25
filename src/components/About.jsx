@@ -9,10 +9,13 @@ const About = () => {
     
   return (
     <div name="about" 
-        className="pt-10 sm:pt-0 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"    
+        className="pt-10 sm:pt-0 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white justify-center "    
     >
         
-        <div className="max-w-screen-lg p-4 mx-auto md:mx-20  flex flex-col justify-center w-full h-full">
+        <div 
+             //className="border-2  max-w-screen-lg p-4 mx-auto md:mx-20  flex flex-col justify-center w-full h-full"
+            className="max-w-screen-lg w-full h-full justify-center  mx-auto flex flex-col p-4"
+        >
             <div className="pb-3 sm:pb-8 ">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">{t('about_header')}</p>
             </div>
