@@ -165,37 +165,37 @@ const Skills = () => {
   }
 
   return (
-    <div name="skills" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
+    <div name="skills" className="pt-8 sm:pt-0 bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
                        
       <div className="max-w-screen-lg mx-auto md:mx-20 p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="flex flex-row">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 inline mt-10">
             {/* Skills */}
             {t('skills_header')}    
                
           </p>
           {/* <MdSignalCellular0Bar size={25} className="ml-3 text-red-500"/> 
           <MdSignalCellular1Bar size={25} className="ml-3 text-yellow-500"/> */}
-          <MdSignalCellular4Bar size={40} className="ml-3 text-purple-500"/>
+          <MdSignalCellular4Bar size={40} className="ml-3 text-purple-500 mt-10"/>
           
           {/* <p className="py-6">Programming Language : </p> */}
         </div>
         <p className="pt-6 text-center text-blue-500 font-bold ">{t('skills_language')}</p>
-        <div className=" w-auto grid grid-cols-3 sm:grid-cols-5 gap-4 text-center py-1 px-12 sm:px-0">
+        <div className=" w-auto grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-1 px-12 sm:px-0">
 
           {
             languages.map(({id, src, title, style, level}) => (
               <div 
                 key={id} 
                 //className={"shadow-md hover:scale-105 duration-500 py-2 rounded-lg"}
-                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+                className={`shadow-md hover:scale-105 duration-500 py-0 rounded-lg ${style}`}
               >
                 <img src={src} alt="" 
-                  className="w-9 mx-auto bg-transparent"
+                  className="w-5 sm:w-9 mx-auto bg-transparent"
                 />
 
                 <div className="flex flex-row justify-center items-end">
-                <p className="mt-2 mx-5 text-xs">{title} </p>
+                <p className="mt-0  mx-0 md:mx-3 text-xs">{title} </p>
                 {/* <BiSignal1 size={25} className="ml-1"/>  */}
                 {
                   checkLevel({level})
@@ -220,20 +220,20 @@ const Skills = () => {
         </div>
 
         <p className="pt-4 text-center text-red-500 font-bold">{t('skills_database')}</p>
-        <div className="w-auto grid grid-cols-3 sm:grid-cols-5 gap-4 text-center py-1 px-12 sm:px-0">
+        <div className="w-auto grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-1 px-12 sm:px-0">
 
           {
             database.map(({id, src, title, style, level}) => (
               <div 
                 key={id} 
                 //className={"shadow-md hover:scale-105 duration-500 py-2 rounded-lg"}
-                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+                className={`shadow-md hover:scale-105 duration-500 py-0 rounded-lg ${style}`}
               >
                 <img src={src} alt="" 
-                  className="w-9 mx-auto bg-transparent"
+                  className="w-6 sm:w-9 mx-auto bg-transparent"
                 />
                 <div className="flex flex-row justify-center items-end">
-                <p className="mt-2 mx-5 text-xs">{title} </p>
+                <p className="mt-0  mx-0 md:mx-3 text-xs">{title} </p>
                 {/* <BiSignal1 size={25} className="ml-1"/>  */}
                 {
                   checkLevel({level})
@@ -245,20 +245,20 @@ const Skills = () => {
         </div>
 
         <p className="pt-4 text-center text-yellow-500 font-bold">{t('skills_tools')}</p>
-        <div className="w-auto grid grid-cols-3 sm:grid-cols-5 gap-4 text-center py-1 px-12 sm:px-0">
+        <div className="w-auto grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-1 px-12 sm:px-0">
 
           {
             tools.map(({id, src, title, style, level}) => (
               <div 
                 key={id} 
                 //className={"shadow-md hover:scale-105 duration-500 py-2 rounded-lg"}
-                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+                className={`shadow-md hover:scale-105 duration-500 py-0 rounded-lg ${style}`}
               >
                 <img src={src} alt="" 
-                  className="w-9 mx-auto bg-transparent"
+                  className="w-5 sm:w-9 mx-auto bg-transparent"
                 />
                 <div className="flex flex-row justify-center items-end">
-                <p className="mt-2 mx-5  text-xs">{title} </p>
+                <p className="mt-0  mx-0 md:mx-3 text-xs">{title} </p>
                 {/* <BiSignal1 size={25} className="ml-1"/>  */}
                 {
                   checkLevel({level})

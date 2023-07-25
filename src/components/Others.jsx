@@ -14,7 +14,7 @@ const Others = () => {
   return (
     <Fragment>
     <div name="others"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="pt-20 sm:pt-0 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto md:mx-20  flex flex-col justify-center w-full h-full">
         <div className="pb-8 ">

@@ -19,7 +19,7 @@ const resources = {
       "about_content": "NAME :          Tanan Lertgungwarnkit\nGENDER :      Male\nAGE :              42\nNATIONALITY :   THAI\nRELIGION :          Buddhism\nLANGUAGE :      Thai, English, Japanese\nEDUCATION :     2000 – 2003:  Chulalongkorn University, \nMajor Computer Science \nDegree Bachelor of Science",
       "project_header": "My Previous Project",
       "project_content1": "Implement for Production Control System (PRONES).",
-      "project_content2": "Develop the barcode system (FURUNO) for Production Line of Industries.",
+      "project_content2": "Develop the barcode system (FURUNO) for Industries's Production Line of Industries.",
       "project_content3": "Develop the Production Control System (KOOGA) for Industries.",
       "project_content4": "Develop the web application mostly from Head Office (Japan).",
       "workplace_header": "My Previous WorkPlace",

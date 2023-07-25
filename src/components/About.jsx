@@ -9,18 +9,18 @@ const About = () => {
     
   return (
     <div name="about" 
-        className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"    
+        className="pt-10 sm:pt-0 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"    
     >
         
         <div className="max-w-screen-lg p-4 mx-auto md:mx-20  flex flex-col justify-center w-full h-full">
-            <div className="pb-8 ">
+            <div className="pb-3 sm:pb-8 ">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">{t('about_header')}</p>
             </div>
             
             <div className="flex flex-col justify-start md:flex-row">
-                <div className=" mx-auto md:mx-10 items-center mb-5 ">
+                <div className=" mx-auto md:mx-10 items-center mb-1 ">
                     <img src={profilepic} alt="profile" 
-                        className="rounded-3xl mx-5 "    
+                        className=" shadow-sm shadow-green-400 rounded-3xl mx-5 h-36 sm:h-auto"    
                     />
                 
                 </div>
