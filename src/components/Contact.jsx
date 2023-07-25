@@ -15,7 +15,7 @@ const Contact = () => {
         >
             <div className=" pb-4">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">{t('contact_header')}</p>
-                <p className="text-xs sm:text-base py-2 sm:py-4 ">{t('contact_subheader')}</p>
+                <p className="text-xs sm:text-base py-4 sm:py-4 ">{t('contact_subheader')}</p>
             </div>
 
             <div className="flex justify-center items-center"> 

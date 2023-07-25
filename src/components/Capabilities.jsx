@@ -8,7 +8,8 @@ const Capabilities = () => {
 
   return (
     <div name="capabilities"
-      className="pt-10 sm:pt-0 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      // className="pt-10 sm:pt-0 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"    
     >
       <div 
         // className="max-w-screen-lg p-4 mx-auto md:mx-20  flex flex-col justify-center w-full h-full"
