@@ -126,7 +126,7 @@ const Navbar = () => {
 
         {nav && (
             <ul className="flex flex-col justify-center items-center
-                 absolute z-40 top-0 right-0 w-44 h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500
+                 absolute z-40 top-0 right-0 w-44 h-screen bg-gradient-to-b from-black to-gray-800 text-gray-100
                   "
             >
         

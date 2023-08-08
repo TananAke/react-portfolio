@@ -67,7 +67,7 @@ const Project = () => {
             </div>
         </div>    */}
 
-        <div className="shadow-md w-40 sm:w-72 h-40 sm:h-48 shadow-gray-600 rounded-lg  ">
+        <div className="shadow-md w-40 sm:w-72 h-40 sm:h-52 shadow-gray-600 rounded-lg  ">
           <video
             id="video"
             ref={ref}
@@ -92,7 +92,7 @@ const Project = () => {
             </div>
         </div>   
 
-          <div className="shadow-md w-40 sm:w-72 h-40 sm:h-48  shadow-gray-600 rounded-lg">
+          <div className="shadow-md w-40 sm:w-72 h-40 sm:h-52  shadow-gray-600 rounded-lg">
             {/* <div className="border-2 h-60 w-48"> */}
             <img 
               src={furuno} alt=""
@@ -108,7 +108,7 @@ const Project = () => {
             </div>
           </div>   
 
-          <div className="shadow-md w-40 sm:w-72 h-36 sm:h-48 shadow-gray-600 rounded-lg">
+          <div className="shadow-md w-40 sm:w-72 h-36 sm:h-52 shadow-gray-600 rounded-lg">
             <img 
               src={productionctrl} alt=""
               // className="rounded-md w-full h-80 duration-200 hover:scale-105"
@@ -127,7 +127,7 @@ const Project = () => {
 
           
 
-          <div className="shadow-md w-40 sm:w-72 h-36 sm:h-48 shadow-gray-600 rounded-lg">
+          <div className="shadow-md w-40 sm:w-72 h-36 sm:h-52 shadow-gray-600 rounded-lg">
             <img 
               src={dev} alt=""
               className="rounded-md mx-auto w-32 sm:w-64 h-20 sm:h-36 duration-200 hover:scale-105"
